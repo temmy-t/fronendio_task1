@@ -65,7 +65,7 @@ button{
     border: transparent;
     border-radius: 0.5rem;
     width: 100%;
-    padding: 0.5rem;
+    padding: 0.7rem;
     color: hsl(0, 0%, 100%);
     background-color: rgb(1, 121, 27);
     font-weight: bold;
@@ -90,6 +90,24 @@ button{
     font-size: 1rem;
     text-decoration: line-through;
     color: rgb(1, 121, 27);
+}
+
+@media (max-width: 414px){
+   body {
+    display: block;
+   } 
+
+   #main{
+    display: block;
+   }
+
+   .sub-div{
+    width: 100%;
+   }
+
+   .sub-div > img {
+    border-radius: 0;
+   }
 }
 
 
